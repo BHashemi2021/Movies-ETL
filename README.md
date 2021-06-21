@@ -82,7 +82,7 @@ The Kaggle movie dataframe is more polished and it contains 24 columns (Figure 4
 Head of the movie ratings file and its columns is shown in Figure 5.
 
 
-#####Figure 5: Movie ratings 
+##### Figure 5: Movie ratings 
 
 -------------------------------
 
@@ -92,13 +92,13 @@ Head of the movie ratings file and its columns is shown in Figure 5.
 -------------------------------
 
 
-####Merging Wikipedia and Kaggle Metadata
+#### Merging Wikipedia and Kaggle Metadata
 
 Since we wanted to keep everything in movies_df, we used a left merge to get the needed data for the hackaton. 
 
 
 
-###Handling Alternative Titles
+### Handling Alternative Titles
 
 In the cleaning process we worked on the files we had received and kept the columns that had useful data for the competition and the compared the two files for alternative titles in columns and plotted them out to have a more solid assessment of what was going on with the data stored in similar columns. In doing so we looked for consistency in data and also outliers. The following scatter plots are just a few examples amng many similar tiles (Figure 6). 
 
@@ -130,7 +130,7 @@ Comparing similar columns we decided which columns were superior to similar colu
 Importing all the cleaned movies and ratings data into SQL database took some time and the results are shown in Figures 8.
 
 
-#####Figure 8: Import completed by reading 26024289 rows in to the SQL database in 15203 seconds.  
+##### Figure 8: Import completed by reading 26024289 rows in to the SQL database in 15203 seconds.  
 
 --------------------------
 
@@ -145,7 +145,7 @@ Importing all the cleaned movies and ratings data into SQL database took some ti
 After importing the cleaned movies (6077) and ratings data (26024289 rows) in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 9 and 10)   
    
 
-#####Figure 9: Confirming data imported to movies table
+##### Figure 9: Confirming data imported to movies table
 
 --------------------------
 
@@ -154,7 +154,7 @@ After importing the cleaned movies (6077) and ratings data (26024289 rows) in to
 --------------------------
 
 
-#####Figure 10: Confirming data import to ratings table
+##### Figure 10: Confirming data import to ratings table
 
 --------------------------
 
