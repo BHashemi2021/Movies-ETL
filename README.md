@@ -127,7 +127,7 @@ Comparing similar columns we decided which columns were superior to similar colu
 
 -------------------------------
 
-Importing all the cleaned movies and ratings data into SQL database took some time and the results are shown in Figures 8 and 9.
+Importing all the cleaned movies and ratings data into SQL database took some time and the results are shown in Figures 8.
 
 
 #####Figure 8: Import completed by reading 26024289 rows in to the SQL database in 15203 seconds.  
@@ -140,21 +140,12 @@ Importing all the cleaned movies and ratings data into SQL database took some ti
 
 
 
-#####Figure 9: Imported data into the SQL database .  
-
---------------------------
-
-![]()
-
---------------------------
-
-
 ##### Confirming tables imported in to the SQL database
 
-After importing the cleaned movies and ratings data in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 10 and 11)   
+After importing the cleaned movies and ratings data in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 9 and 10)   
    
 
-#####Figure 10: Confirming data imported to movies table
+#####Figure 9: Confirming data imported to movies table
 
 --------------------------
 
@@ -163,7 +154,7 @@ After importing the cleaned movies and ratings data in to the SQL database two q
 --------------------------
 
 
-#####Figure 11: Confirming data import to ratings table
+#####Figure 10: Confirming data import to ratings table
 
 --------------------------
 
