@@ -112,7 +112,7 @@ In the cleaning process we worked on the files we had received and kept the colu
 
 
 -------------------------------
- * Yellow color is encircling an outlier in the Wikipedia data release dates.
+ * Yellow color is encircling an outlier in the Wikipedia release dates data.
 
 
 Comparing similar columns we decided which columns were superior to similar columns in data quality and consistency to keep (Figure 7) 
