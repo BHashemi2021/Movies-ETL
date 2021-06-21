@@ -142,7 +142,7 @@ Importing all the cleaned movies and ratings data into SQL database took some ti
 
 ##### Confirming tables imported in to the SQL database
 
-After importing the cleaned movies and ratings data in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 9 and 10)   
+After importing the cleaned movies (6077) and ratings data (26024289 rows) in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 9 and 10)   
    
 
 #####Figure 9: Confirming data imported to movies table
