@@ -112,7 +112,7 @@ In the cleaning process we worked on the files we had received and kept the colu
 
 
 -------------------------------
-
+ * Yellow color is encircling an outlier in the Wikipedia data release dates.
 
 
 Comparing similar columns we decided which columns were superior to similar columns in data quality and consistency to keep (Figure 7) 
@@ -127,27 +127,48 @@ Comparing similar columns we decided which columns were superior to similar colu
 
 -------------------------------
 
+Importing all the cleaned movies and ratings data into SQL database took some time and the results are shown in Figures 8 and 9.
 
 
-# In pgAdmin, confirm that the table imported correctly. Follow these steps:
+#####Figure 8: Import completed by reading 26024289 rows in to the SQL database in 15203 seconds.  
 
-    # Right-click the "movies" table name and select Properties.
-    # Click the Columns tab to make sure all columns have an appropriate data type.
-    # Close the Properties window, and then right-click "movies" again.
-    # Select "View/Edit Data" followed by "First 100 Rows."
-    # Right-click "movies" and select Query Tool.
-    # Inside the Query Editor, run the query "select count(*) from movies" to make sure all the rows 
-    # were imported.
+--------------------------
 
+![Del0-imported-rows-.png](https://github.com/BHashemi2021/Movies-ETL/blob/main/Resources/Del0-imported-rows-.png)
 
---------------
-# Once the cell finishes running, confirm the table imported correctly using pgAdmin. 
-
-# To do so: Right click on the movies table >> View/Edit Data >> First 100 rows
-
-# Verify the columns have the correct data type, inspect the first 100 rows, and check the row count.
+--------------------------
 
 
 
+#####Figure 9: Imported data into the SQL database .  
+
+--------------------------
+
+![]()
+
+--------------------------
+
+
+##### Confirming tables imported in to the SQL database
+
+After importing the cleaned movies and ratings data in to the SQL database two quesries were performed to confirm the data have been imported to the tables (Figures 10 and 11)   
+   
+
+#####Figure 10: Confirming data imported to movies table
+
+--------------------------
+
+![movies_query.png](https://github.com/BHashemi2021/Movies-ETL/blob/main/Resources/movies_query.png)
+
+--------------------------
+
+
+#####Figure 11: Confirming data import to ratings table
+
+--------------------------
+
+![ratings_query.png](https://github.com/BHashemi2021/Movies-ETL/blob/main/Resources/ratings_query.png)
+
+--------------------------
 
 
