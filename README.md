@@ -92,13 +92,13 @@ Head of the movie ratings file and its columns is shown in Figure 5.
 -------------------------------
 
 
-#### Merging Wikipedia and Kaggle Metadata
+### Part 2: Merging Wikipedia and Kaggle Metadata
 
 Since we wanted to keep everything in movies_df, we used a left merge to get the needed data for the hackaton. 
 
 
 
-### Handling Alternative Titles
+#### Handling Alternative Titles
 
 In the cleaning process we worked on the files we had received and kept the columns that had useful data for the competition and the compared the two files for alternative titles in columns and plotted them out to have a more solid assessment of what was going on with the data stored in similar columns. In doing so we looked for consistency in data and also outliers. The following scatter plots are just a few examples amng many similar tiles (Figure 6). 
 
@@ -126,6 +126,9 @@ Comparing similar columns we decided which columns were superior to similar colu
 
 
 -------------------------------
+
+
+### Part 3: Importing all the cleaned movies and ratings data into SQL database
 
 Importing all the cleaned movies and ratings data into SQL database took some time and the results are shown in Figures 8.
 
