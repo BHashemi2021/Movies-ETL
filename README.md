@@ -8,7 +8,7 @@ To inspire the team have some fun, and connect with the local recording communit
 
 By a member of the Amazing Prime team, we have been tasked with creating the dataset for the hacketon. There are two data sources. A scraping Wikipedia from movies released since 1990 and rating data from Movie Land's website, Kaggle. 
 
-Using Python language through Jupyter Notebook, we will extract data from both Wikipedia and Kaggle files, clean and then combine them, and finally save them into a SQL database (Figure 1) so that the hackathon participants have a nice, clean dataset to use. 
+Using Python language through Jupyter Notebook, we will extract data from both Wikipedia and Kaggle files, clean and then combine them, and finally save them into a SQL database to be later stored in the cloud (Figure 1) so that the hackathon participants have a nice, clean dataset to use. 
 
 
 ##### Figure 1: The long shot of the process
