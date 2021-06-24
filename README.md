@@ -100,7 +100,7 @@ Since we wanted to keep everything in movies_df, we used a left merge to get the
 
 #### Handling Alternative Titles
 
-In the cleaning process we worked on the files we had received and kept the columns that had useful data for the competition and the compared the two files for alternative titles in columns and plotted them out to have a more solid assessment of what was going on with the data stored in similar columns. In doing so we looked for consistency in data and also outliers. The following scatter plots are just a few examples amng many similar tiles (Figure 6). 
+In the cleaning process we worked on the files we had received and kept the columns that had useful data for the competition and compared the two files for alternative titles in columns and plotted them out to have a more solid assessment of what was going on with the data stored in similar columns. In doing so we looked for consistency in data and also outliers to choose betwen the two. The following scatter plots are just a few examples among many similar tiles (Figure 6). 
 
 
 ##### Figures 6: Scatter plots of three different variables. Axis_x = Wikipedia data, Axis_y = Kaggle data
